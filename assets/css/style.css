@@ -19,6 +19,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 #menu {
     font-size: 110%;
@@ -60,5 +61,19 @@ h1, h2 {
     from { transform: scale(1);
     }
     to {transform: scale(1.1);}
+    
+}
+.Menu-general {font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+    position: relative;
+    text-align: center; 
+
+}
+#table-image {
+    background:  url('../images/table-image.jpg') no-repeat center center;
+    width: 500px;
+    height: 100%;
     
 }
