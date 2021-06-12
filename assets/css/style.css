@@ -9,8 +9,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    background-color: #fad287;
-    
+    background-color: #fad287;   
 }
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -68,7 +67,6 @@ h1, h2 {
 .Menu-food {font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    border-color: hsla(0, 100%, 50%, 0.397);
     position: relative;
     text-align: center;
     font-size: xx-large;
@@ -76,7 +74,6 @@ h1, h2 {
 .Menu-cocktail {font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    border-color: hsla(0, 100%, 50%, 0.397);
     position: relative;
     text-align: center;
     font-size: xx-large;
@@ -90,6 +87,7 @@ h1, h2 {
     height: 700px;
     width: 70%;
     margin: 1.25rem auto;
+    border-radius: 5px;
  
 }
 #position {
@@ -102,7 +100,7 @@ h1, h2 {
 
 }
 a {
-    color:#fdcb7f;  
+    color:#fdcb7f;   
 }
 
 #Menu-food {
@@ -123,6 +121,21 @@ a {
     margin: 0 auto;
     background-repeat: no-repeat;
 
+}
+footer {
+    height: 150px;
+}
+.social-networks {
+    text-align: center; 
+}
+.social-networks > li {
+    display: inline;
+}
+.social-networks i {
+    font-size: 50px;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 
