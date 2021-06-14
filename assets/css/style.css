@@ -148,6 +148,7 @@ footer {
     width: 100%;
 }
 
+
 @media screen and (max-width: 1200px) {
     #table-image {
         width: 65%;
@@ -194,7 +195,9 @@ footer {
         column-count: 2;
     }
     
+    
 }
+
 
 
 
