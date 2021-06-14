@@ -53,7 +53,7 @@ footer {
 .social-networks {
     text-align: center; 
     margin: 0 auto;
-    position: relative;
+    
 }
 .social-networks > li {
     display: inline;
@@ -120,7 +120,8 @@ footer {
     float: left;
     margin-top: 20px;
     margin-left: 100px;
-	position: relative;
+    position: relative;
+	
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
