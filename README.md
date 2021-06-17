@@ -12,7 +12,7 @@
 Hanley's Restaurant is a website for those who want to eat at a fine dining establishment. It is aimed at the younger generation who want to socialize with their friends at a low-cost dining establishment. Before visiting Hanley's Restaurant, potential and current customers will be able to check when the restaurant is open and what is on the menu.
 
 # Table of Contents
-- [Name of Restaurant](#hanley's-restaurant)
+- [Name of Restaurant](#Hanley's-Restaurant)
 - [Author](#author)
 - [Project Overview](#project-overview)
 - [Table of Contents](#table-of-contents)
