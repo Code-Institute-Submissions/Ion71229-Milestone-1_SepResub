@@ -9,7 +9,7 @@
 ### Ion Simion 
 
 # Project Overview
-### Hanley's Restaurant is a website for those who want to eat at a fine dining establishment. It is aimed at the younger generation who want to socialize with their friends at a low-cost dining establishment. Before visiting Hanley's Restaurant, potential and current customers will be able to check when the restaurant is open and what is on the menu.
+Hanley's Restaurant is a website for those who want to eat at a fine dining establishment. It is aimed at the younger generation who want to socialize with their friends at a low-cost dining establishment. Before visiting Hanley's Restaurant, potential and current customers will be able to check when the restaurant is open and what is on the menu.
 
 # Table of Contents
 
@@ -23,6 +23,20 @@
 - As a first-time visitor of the website, I'd want to hear what past customers have to say about the restaurant so that I can have a sense of what to anticipate when I go.
 
 ### Returning Restaurant Guest - Returning Visitor Goals
+- As a returning visitor of the website, I'd want to know if there have been any new menu additions in the last few weeks or months so that I can determine whether to purchase them the next time I visit the restaurant.
+-  As a returning visitor of the website, I'd want to know about any news or important updates about the restaurant.
+- As a returning visitor of the website, I'd want to know if the website works on all devices.
+- As a returning visitor of the website, I'd expect the social media links to open up on a seperate tab.
+
+# Features
+## Header
+The header is located at the top of every page and exists out of the restaurant logo and navigation bar.
+- Restaurant logo- The restaurant logo on the upper left side of the screen indicates the website is about a 'Restaurant' named 'Hanley's Restaurant' and is a clickable link always redirecting the visitor to the website's index page.
+- The Navigation Bar - The navigation bar is part of the header and will be logically found by the visitor. A Grey coloured stripe above a navigation item makes it clear to visitors on which active page they are at the moment. The navigation bar will automatically change when accessing the website on other smaller devices. Hovering over a navigation bar item will change making it clear to the visitor it's a clickable link. 
+- Background Colour : rgb(250, 209, 133) A Cream background colour has been chosen for the header to keep the hero image in the background partly visible.
+
+
+
 
 
 
