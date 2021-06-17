@@ -44,8 +44,12 @@ The header is located at the top of every page and exists out of the restaurant 
 ## Menu Page
 - The 'Menu' page exists out of a division (image). This can be inline next to each other for bigger screen sizes. When the device width becomes smaller, the division will be kept readable.
 ## Drinks Menu
-- The 'Drinks Mneu' page exists out od a division (image). This can be inline next to each other for bigger screen sizes. When the device width becomes smaller, the division will be kept readable.
+- The 'Drinks Menu' page exists out od a division (image). This can be inline next to each other for bigger screen sizes. When the device width becomes smaller, the division will be kept readable.
 <img src="assets/images/Capture menu and drinks menu.PNG">
+
+## Gallery 
+- The gallery shows an insight to what the restaurant looks like and images of the food.
+<img src="assets/images/Capture Gallery.PNG">
 
 ## Forms 
 - The form on the 'Contact Us' has a h3 heading will be smaller in size on smaller devices (smartphones) for readability purposes.
@@ -53,9 +57,6 @@ The header is located at the top of every page and exists out of the restaurant 
 - The 'Table' can be found in contact us in the navigation bar. The Table consists of a h2 heading for 'Opening Hours'. The Table also has a class. 
 <img src="assets/images/Capture Contact Us.PNG">
 
-## Gallery 
-- The gallery shows an insight to what the restaurant looks like and images of the food.
-<img src="assets/images/Capture Gallery.PNG">
 
 ## Buttons
 - Button can be found in the form Contact Us page and is styled to have white text and a blue background-colour. 
