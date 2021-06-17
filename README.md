@@ -33,8 +33,10 @@ Hanley's Restaurant is a website for those who want to eat at a fine dining esta
 The header is located at the top of every page and exists out of the restaurant logo and navigation bar.
 - Restaurant logo- The restaurant logo on the upper left side of the screen indicates the website is about a 'Restaurant' named 'Hanley's Restaurant' and is a clickable link always redirecting the visitor to the website's index page.
 <img src="assets/images/Capture Logo.PNG">
+
 - The Navigation Bar - The navigation bar is part of the header and will be logically found by the visitor. A Grey coloured stripe above a navigation item makes it clear to visitors on which active page they are at the moment. The navigation bar will automatically change when accessing the website on other smaller devices. Hovering over a navigation bar item will change making it clear to the visitor it's a clickable link. 
 <img src="assets/images/Capture Navigation.PNG">
+
 - Background Colour - A Cream background colour has been chosen for the header to keep the hero image in the background partly visible.
 
 ## Sections/Divisions
