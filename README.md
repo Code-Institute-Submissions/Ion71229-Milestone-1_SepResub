@@ -37,12 +37,6 @@ The header is located at the top of every page and exists out of the restaurant 
 <img src="assets/images/Capture Navigation.PNG">
 - Background Colour - A Cream background colour has been chosen for the header to keep the hero image in the background partly visible.
 
-## Footer
-The footer has been located at the bottom of every page and exists out of social media links.
-- Background Colour - A Cream transparent background colour has been chosen for the footer to keep the hero image in the background partly visible.
-- Social Media Links - Icons representing social media platforms from the fontawesome.com website are introduced as anchor links to redirect the visitor to the restaurant's external social media pages (blank page). Hoovering over the icons changes the click to a hand icon. 
-<img src="assets/images/Capture footer.PNG">
-
 ## Sections/Divisions
 - Depending on which page you are, the website has one or multiple sections/divisions containing content. You can recognize these sections/divisions by a black background-colour and by a Cream coloured writing.
 ## Menu Page
@@ -64,6 +58,12 @@ The footer has been located at the bottom of every page and exists out of social
 ## Buttons
 - Button can be found in the form Contact Us page and is styled to have white text and a blue background-colour. 
 <img src="assets/images/Capture Button.PNG">
+
+## Footer
+The footer has been located at the bottom of every page and exists out of social media links.
+- Background Colour - A Cream transparent background colour has been chosen for the footer to keep the hero image in the background partly visible.
+- Social Media Links - Icons representing social media platforms from the fontawesome.com website are introduced as anchor links to redirect the visitor to the restaurant's external social media pages (blank page). Hoovering over the icons changes the click to a hand icon. 
+<img src="assets/images/Capture footer.PNG">
 
 
 
