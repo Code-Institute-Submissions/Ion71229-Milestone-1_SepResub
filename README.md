@@ -9,4 +9,4 @@ Milestone Project 1- A User-Centric Project as part of Code Institute's Software
 Ion Simion 
 
 # Project Overview
-! [Capture of Media]
+ <img src="assets/images/Capture of media.PNG">
