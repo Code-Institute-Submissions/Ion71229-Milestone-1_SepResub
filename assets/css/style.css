@@ -49,6 +49,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    
 }
 #hero-image {
     height: 600px;
@@ -57,6 +58,7 @@ h1, h2 {
     animation: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    background-size: cover;
 }
 @keyframes hero-zoom {
     from { transform: scale(1);
@@ -88,6 +90,7 @@ h1, h2 {
     width: 70%;
     margin: 1.25rem auto;
     border-radius: 5px;
+    background-size: cover;
  
 }
 .position {
@@ -104,23 +107,35 @@ a {
 }
 
 #Menu-food {
-    background:  url('../images/Menu-food.jpg') no-repeat center center;
-    height: 70em;
-    width: 60%;
-    border: 1px solid;
-    background-size: cover;
-    margin: 0 auto;
-    background-repeat: no-repeat;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.menu-space{
+    position: relative;
+    margin-top: 35px;
+}
+.food{
+    margin: 20px;
+    padding-top: 100px;
+}
+p{
+display: block;
+margin: 15px;
 }
 #Drinks-Menu {
-    background: url('../images/Drinks-Menu.jpg') no-repeat center center;
-    height: 80em;
-    width: 60%;
-    border: 1px solid;
-    background-size: cover;
-    margin: 0 auto;
-    background-repeat: no-repeat;
-
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.drinks{
+    margin: 20px;
+    padding-top: 100px;
 }
 footer {
     height: 150px;
@@ -147,43 +162,149 @@ footer {
 #photos > img {
     width: 100%;
 }
+.container {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+    position: relative;
+	
+}
 
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
-@media screen and (max-width: 1200px) {
-    #table-image {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-    #position {
-        padding: 30px 0;
-        margin: 0;
-        width: 100%;
-        float: left;
-    }
-    hr {
-        display: none;
-    }
+#contact {
+    width: 60%;
+	background:#fad287;
+    float: left;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px black;
+    overflow: hidden;
+    	
+}
+
+#contact h3 {
+	color: #3a3a3a;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin: 5px 0 15px;
+	display: block;
+	font-size: 13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 10%;
+	padding: 0;
+	width: 90%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width: 100%;
+	border: 1px solid #CCC;
+	background: #FFF;
+	margin: 0 0 5px;
+	padding: 10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition: border-color 0.3s ease-in-out;
+	-moz-transition: border-color 0.3s ease-in-out;
+	transition: border-color 0.3s ease-in-out;
+	border: 1px solid #AAA;
+}
+
+#contact textarea {
+	height: 100px;
+	max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	background:#0CF;
+	color:#FFF;
+	margin: 0 0 5px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline: 0;
+	border: 1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+.openinghours {
+    font-family: Lucida Console;
+    border-radius: 4px;
+    box-shadow: 0 0 10px black;
+    overflow: hidden;
+    display: inline-block;
+}
+.openinghourscontent {
+    float: left;
+}
+.openinghourscontent h2 {
+    display: block;
+    text-align: center;
+    margin-top: .33em;
+}
+
+.opening-hours-table tr td:first-child {
+    font-weight: bold;
+}
+#open-status {
+    display: block;
+    margin-top: -1em;
+    text-align: center;
+    border: dotted lightgrey 3px;
+}
+.openorclosed:after {
+    content:" open during these hours:";
+}
+.opening-hours-table tr td {
+    padding: 5px;
+}
+.openinghours {
+    float: right;
+    margin-right: 200px;
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: 150px;
     
 }
 
+
 @media  screen and (max-width: 950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px; 
-    }
-    #table-image {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-    #position {
-        width: 100%;
-        text-align: center;
-    }
     #photos {
         column-count: 3;
     }
@@ -196,6 +317,38 @@ footer {
     }
     
     
+}
+@media only screen and (min-device-width: 320px)  and (max-device-width: 480px){
+    #logo{
+        font-size: 30px;
+    }
+    #menu{
+        width: 100%;
+        display: grid;
+        position: relative;
+        padding: revert;
+    }
+    #hero-image{
+        height: 200px;
+        width: 80%;
+    }
+    #hero-outer{
+        padding-left: 30px;
+        height: 200px;
+    }
+    #table-image{
+        height: 200px;
+        width: 85%;
+        position: relative;
+        padding-left: 15px;
+    }
+    .position {
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .social-networks{
+        letter-spacing: 15px;
+    }
 }
 
 
