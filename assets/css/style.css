@@ -123,8 +123,8 @@ a {
     padding-top: 100px;
 }
 p{
-display: block;
-margin: 15px;
+    display: block;
+    margin: 15px;
 }
 #Drinks-Menu {
     text-align: center;
@@ -224,7 +224,7 @@ fieldset {
 #contact textarea {
 	height: 100px;
 	max-width: 100%;
-  resize: none;
+    resize: none;
 }
 
 #contact button[type="submit"] {
@@ -252,16 +252,16 @@ fieldset {
 	border: 1px solid #999;
 }
 ::-webkit-input-placeholder {
- color:#888;
+    color:#888;
 }
 :-moz-placeholder {
- color:#888;
+    color:#888;
 }
 ::-moz-placeholder {
- color:#888;
+    color:#888;
 }
 :-ms-input-placeholder {
- color:#888;
+    color:#888;
 }
 .openinghours {
     font-family: Lucida Console;
@@ -295,63 +295,193 @@ fieldset {
     padding: 5px;
 }
 .openinghours {
-    float: right;
     margin-right: 200px;
     margin-top: 100px;
     position: relative;
-    margin-bottom: 150px;
-    
+    margin-bottom: 150px;  
 }
 
-
 @media  screen and (max-width: 950px) {
-    #photos {
-        column-count: 3;
-    }
-    
+#photos {
+    column-count: 3;
+}   
 }
 
 @media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
-    }
-    
-    
+#photos {
+    column-count: 2;
+}   
 }
 @media only screen and (min-device-width: 320px)  and (max-device-width: 480px){
-    #logo{
-        font-size: 30px;
-    }
-    #menu{
-        width: 100%;
-        display: grid;
-        position: relative;
-        padding: revert;
-    }
-    #hero-image{
-        height: 200px;
-        width: 80%;
-    }
-    #hero-outer{
-        padding-left: 30px;
-        height: 200px;
-    }
-    #table-image{
-        height: 200px;
-        width: 85%;
-        position: relative;
-        padding-left: 15px;
-    }
-    .position {
-        font-size: 20px;
-        margin: 0 auto;
-    }
-    .social-networks{
-        letter-spacing: 15px;
-    }
+#logo{
+    font-size: 30px;
 }
-
-
-
-
-
+#menu{
+    width: 100%;
+    display: grid;
+    position: relative;
+    padding: revert;
+}
+#hero-image{
+    height: 200px;
+    width: 80%;
+}
+#hero-outer{
+    padding-left: 30px;
+    height: 200px;
+}
+#table-image{
+    height: 200px;
+    width: 85%;
+    position: relative;
+    padding-left: 15px;
+}
+.position {
+    font-size: 20px;
+    margin: 0 auto;
+}
+.social-networks{
+    letter-spacing: 15px;
+}
+.container{
+    width: 100%;
+    margin-left: 40px;
+    position: relative;
+}
+.openinghours{
+    width: 60%;
+    margin-left: 50px;
+    font-size: 10px;
+    padding: 10px;
+}
+#Menu-food{
+    font-size: 10px;
+}
+#Drinks-Menu{
+    font-size: 10px;
+}
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px){
+#hero-image {
+    margin-left: 5px;
+}
+.container{
+    padding-left: 15px;
+}
+.openinghours{
+    width: 60%;
+    margin-left: 70px;
+}
+.openinghourscontent{
+    margin: 0 auto;
+    position: relative;
+}
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px){
+#hero-image{
+    margin-left: 10px;
+}
+.container{
+    padding-left: 20px;
+}
+.openinghours{
+    margin-right: 75px;
+}
+.openinghourscontent{
+    margin-left: 40px;
+}
+} 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px){
+#hero-image{
+    margin-left: 10px;
+}   
+} 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+#logo{
+    width: 1%;
+    padding-left: 10px;
+}
+#menu{
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    padding: revert;
+}
+#hero-outer{
+    height: 400px;
+}
+#hero-image{
+    height: 400px;
+    width: 70%;
+    background-size: cover;
+    margin-left: 100px;
+}
+#table-image{
+    width: 78%;
+    height: 400px;
+    margin-left: 70px;
+}
+.Menu-cocktail{
+    margin-top: 10px;
+}
+.openinghours{
+    font-size: 20px;
+    left: 430px;
+    position: absolute;
+}
+.container{
+    width: 70%;
+    right: 85px;
+}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+#logo{
+    width: 100%;
+    font-size: 50px;
+    margin: 20px 30px;
+}
+#menu{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#hero-image{
+    margin: auto;
+}
+#table-image{
+    margin: auto;
+}
+.openinghours{
+    font-size: 23px;
+    margin-left: 205px;
+    padding: 20px;
+}
+.container{
+    width: -webkit-fill-available;
+}
+    
+}
+@media only screen and (min-device-width: 540px) and (max-device-width: 720px){
+#hero-outer{
+    height: 400px;
+}
+#hero-image{
+    height: 400px;
+    width: 85%;
+    margin-left: 40px;
+}
+#table-image{
+    height: 300px;
+}
+.position{
+    font-size: 20px;
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    margin-left: 70px;
+}
+    .openinghours{
+    margin-left: 100px;
+}
+}
