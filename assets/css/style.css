@@ -308,7 +308,7 @@ fieldset {
     column-count: 2;
 }   
 }
-@media only screen and (min-device-width: 320px)  and (max-device-width: 480px){
+@media only screen and (min-width: 320px)  and (max-width: 480px){
 #logo{
     font-size: 30px;
 }
@@ -357,7 +357,7 @@ fieldset {
     font-size: 10px;
 }
 }
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px){
+@media only screen and (min-width: 375px) and (max-width: 667px){
 #hero-image {
     margin-left: 5px;
 }
@@ -373,7 +373,7 @@ fieldset {
     position: relative;
 }
 }
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px){
+@media only screen and (min-width: 414px) and (max-width: 736px){
 #hero-image{
     margin-left: 10px;
 }
@@ -387,12 +387,12 @@ fieldset {
     margin-left: 40px;
 }
 } 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px){
+@media only screen and (min-width: 375px) and (max-width: 812px){
 #hero-image{
     margin-left: 10px;
 }   
 } 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+@media only screen and (min-width: 768px) and (max-width: 1024px){
 #logo{
     width: 1%;
     padding-left: 10px;
@@ -431,7 +431,7 @@ fieldset {
     right: 85px;
 }
 }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+@media only screen and (min-width: 1024px) and (max-width: 1366px){
 #logo{
     width: 100%;
     font-size: 50px;
@@ -457,7 +457,7 @@ fieldset {
 }
     
 }
-@media only screen and (min-device-width: 540px) and (max-device-width: 720px){
+@media only screen and (min-width: 540px) and (max-width: 720px){
 #hero-outer{
     height: 400px;
 }
@@ -480,4 +480,38 @@ fieldset {
     .openinghours{
     margin-left: 100px;
 }
+}
+@media only screen and (min-width: 280px) and (max-width: 319px){
+#logo{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #menu{
+        display: inline-grid;
+        margin-left: 10px;
+    }
+    #hero-image{
+        height: 200px;
+        width: 80%;
+        margin-left: 28px;
+    }
+    #hero-outer{
+        height: 200px;
+    }
+    #table-image{
+        height: 200px;
+        width: 90%;
+    }
+    .position{
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    .container{
+        width: 100%;
+    margin-left: 36px;
+    }
+    .openinghours{
+        font-size: 13px;
+        margin-left: 38px;
+    }
 }
