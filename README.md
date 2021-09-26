@@ -98,11 +98,11 @@ The footer has been located at the bottom of every page and exists out of social
 - When submitting the contact us form by pressing the submit button it brings you to another page and error 501 comes up on the screen.
 
 # Deployment
-## Publishing
 'GitHub Pages' was used for publishing the website. The procedure was as follows:
 
- 1. Login to the [GitHub](https://github.com/) website.
-2. On the left side of your screen, you can find a summary of all your repositories. [Here is mine.](https://github.com/Ion71229/Milestone-1) 
+# Publising 
+1. Login to the [GitHub](https://github.com/) website.
+2. On the left side of your screen, you can find a summary of all your repositories. [Here is mine.](https://github.com/Ion71229/Milestone-1)
 3. You can find a ribbon on the top of your screen. In the ribbon, click on 'Settings'.
 4.  In the selection menu on the left side of your screen, click on 'Pages'.
 5. Beneath 'Source' you will find a small pull-down menu. 
@@ -110,7 +110,19 @@ The footer has been located at the bottom of every page and exists out of social
 7. You will get automatically redirected to the 'GitHub Pages' page. There you will see a blue text box telling the site will be published.
 8. Refresh the page after a minute and when this text box turns green, the website has been published.
 9. Click the link in the green text box to go to your published website.
-<img src="assets/images/Capture Publish Page.PNG">
+
+# Forking
+- You can contribute to this project without affecting the main branch with the following steps:
+1. Navigate to github repositores select this [repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+2. On the right of the repository name you will find the fork button next to star and watch buttons.
+3. Pressing said button will create a copy for you to use.
+
+# Cloning
+- You can clone this repository to local device with the following steps:
+1. Navigate to github repositores select this [repository](https://github.com/Ion71229/Milestone-1/)
+2. Under the repository name there is a green clone or download button.
+
+- The live link can be found here- [Hanley's Restaurant](https://ion71229.github.io/Milestone-1/)
 
 # Credits
 I used the following websites for my project.
