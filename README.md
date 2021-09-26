@@ -133,6 +133,6 @@ I used the following websites for my project.
 - [Canva](https://www.canva.com/)
 
 # Acknowledgements
-I would like to thank the slack community for their great advice, tips and the code review.
+I would like to thank my mentor Adegbenga Adeye and the slack community for their great advice, tips and the code review.
 
 
